@@ -6,3 +6,5 @@
 [link]: README.md
 
 test
+
+[Python](Python-Notes/Basics.md)
