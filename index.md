@@ -2,4 +2,5 @@
 
 ------
 
-1. [Python](../Python Notes/Basics.md)
+1. Python
+   - [Basics](Python/Basics.md)
