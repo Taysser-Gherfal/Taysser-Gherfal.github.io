@@ -1,6 +1,8 @@
 ## Strings " "
 
-**Strings** are a sequence of spaces in memory all kept under the same variable name
+------
+
+Strings** are a sequence of spaces in memory all kept under the same variable name
 
 ### Title - Lower - Uppercase
 

@@ -1,5 +1,7 @@
 ## Tuples ( , , , )
 
+------
+
 **Tuples** is a structure that let you group multiple pieces of data together 
 
 - Can be processed very quickly
