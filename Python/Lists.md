@@ -130,3 +130,22 @@ friend_foods = my_foods[:]
 if bicycles:
 ```
 
+### Finding an item in a list
+
+```python
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+        print("Adding" + requested_topping + ".")
+    else:
+        print("Sorry, we don't have" + requested_topping)
+```
+
+### Changing the content of a list in a for loop
+
+```python
+mylist = [20,60,80]
+
+for counter, x in enumerate(mylist):
+    mylist[counter] = x*2
+```
+
