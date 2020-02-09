@@ -1,5 +1,7 @@
 ## Looping
 
+------
+
 **For loops** works with **lists of data**
 
 - **Existing list**
