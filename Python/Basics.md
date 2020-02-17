@@ -8,3 +8,4 @@
 4. [Looping](Looping.md)
 5. [Numbers](Numbers.md)
 6. [Dictionary](Dictionary.md)
+7. [Conditional Test](Conditional.md)
