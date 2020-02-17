@@ -7,3 +7,4 @@
 3. [Lists [,,,]](Lists.md)
 4. [Looping](Looping.md)
 5. [Numbers](Numbers.md)
+6. [Dictionary](Dictionary.md)

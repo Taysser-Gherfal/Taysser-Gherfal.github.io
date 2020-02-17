@@ -12,7 +12,7 @@ print(alien['color'])
 ''' green '''
 ```
 
-### Adding New Key-Value Pair
+### Adding / Updating Key-Value Pair
 
 >
 > alien ['type'] = 'P'
@@ -26,12 +26,6 @@ print(alien)
 ''' {'color': 'green', 'points': 5, 'type': 'P'} '''
 ```
 
-### Updating value
-
-```python
-alien ['type'] = 'C'
-```
-
 ### Removing Key-Value Pairs
 
 ```python
@@ -40,7 +34,7 @@ del alien ['type']
 
 ### Finding if a dictionary has a specific element
 
-> *Does dic contain key name text?*
+> *Does dictionary contain **key** name text?*
 
 ```python
 if text in employees:
@@ -100,7 +94,7 @@ for i in alien.values():
 
 > for i in **set**(alien .values()):
 
-> **Tip:** When you wrap set() around a list that contains duplicate items, Python identifies the unique items in the list and builds a set from those items.
+> **Tip:** When you wrap **set()** around a list that contains duplicate items, Python **identifies the unique** items in the list and **builds a set** from those items.
 
 ```python
 alien = {'points': 5, 'color': 'green', 'color2':'green'}
