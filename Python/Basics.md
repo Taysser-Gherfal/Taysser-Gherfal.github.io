@@ -10,3 +10,4 @@
 6. [Looping](Basics/Looping.md)
 7. [While Loops](Basics/WhileLoops.md)
 8. [Conditional Test](Basics/Conditional.md)
+9. [Functions](Basics/Functions.md)
