@@ -219,5 +219,4 @@ with open("hello.txt","w") as myfile:
 > greet_user() 
 > ```
 >
-> 
 

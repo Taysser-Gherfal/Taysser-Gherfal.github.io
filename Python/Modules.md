@@ -2,6 +2,8 @@
 
 ------
 
+Python code that is kept in a separate file.
+
 ### Importing an Entire Module
 
 **→ pizza.py**
