@@ -58,7 +58,7 @@
 
 > Let's your Python programs interface with the operation system
 >
-> - Execute commans like the regular command line
+> - Execute commands like the regular command line
 >
 > ```python
 > import sys, os
@@ -85,4 +85,26 @@
 
 ### 'Time' module
 
-> 
+> - Make you program pause for a number of seconds - you can use floating point numbers for less than a second!
+>
+>   ```python
+>   import time
+>   print("Counting to 10 seconds...")
+>   for x in range(1,11):
+>       time.sleep(1)
+>       print(x)
+>   ```
+>
+> - Get the current time and date
+>
+>   ```python
+>   import time
+>   mytime = time.strftime("%H:%M")
+>   print(mytime)
+>   ```
+>
+>   ```python
+>   import time
+>   # to get the raw hour nubmer
+>   hour = int(time.strftime("%H"))
+>   ```
