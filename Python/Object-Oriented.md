@@ -31,9 +31,23 @@ second = Employee("Steve", 4321).show()
 print("Number of employees", Employee.employee_count)
 ```
 
+
+
 ### Getters, setters and logic
 
-Sometimes it is valuable for classes to perform some checks on values before assigning them to attributes - so that a class can make sure that only valid data is getting sent to it. 
+Sometimes it is valuable for classes to perform some checks on values before assigning them to attributes - so that a class can make sure that only valid data is getting sent to it.
+
+#### Setter 
+
+- Every time the following **'num'** attribute gets a new value, including when it is created during **--init--**, the method under **@num.setter** is called
+  - self.__num = 1000 --> a private variable with two under scores to indicate that this is not accessible from outside the class - to prevent an infinite loop
+
+#### Getter
+
+- print(x.num) --> from the main code triggers the **getter**
+
+  @property
+      def num(self):
 
 ```python
 class Myclass:
@@ -52,9 +66,9 @@ class Myclass:
         print("Setting number")
         if num_passed > 1000:
             print("Rounding to 1000")
-            self._num = 1000
+            self.__num = 1000
         else:
-            self._num = num_passed
+            self.__num = num_passed
             
 x = Myclass(123)
 print(x.num)
