@@ -77,3 +77,53 @@ x.num = 9000
 print(x.num)
 ```
 
+
+
+### Inheritance
+
+A way for classes to build upon other classes by inheriting their methods and attributes. That way you can define a base class that has common elements and subclasses which inherit characteristics from the base now.
+
+> Example: A digger for example needs all the a tributes of a vehicle class but also have specific methods for only diggers
+
+```python
+class Vehicle:
+    def _init_(self,x,y):
+        self.x_pos = x
+        self.y_pos = y
+        self.x_speed = 0
+        self.y_speed = 0
+        
+    def update(self):
+        print("Moving")
+        self.x_pos += self.x_speed
+        self.y_pos += self.y_speed
+    
+    def render(self):
+        print("Drawing")
+    
+class Digger(Vehicle):
+    # initialize the Vehicle bits first
+    def _init_(self,x,y):
+        Vehicle._init_(self,x,y)
+    
+    # a specific method for diggers
+    def dig(self):
+        print("Digging")
+   
+class plane(Vehicle):
+    # initialize the Vehicle bits + special attributes 
+    def _init_(self,x,y,z):
+        Vehicle._init_(self,x,y,z)
+        self.z = z
+
+car = Vehicle(10,20)
+car.update()
+car.render()
+
+digger = Digger(50,90)
+digger.dig
+
+chopper = plane(10,20,30)
+chopper.update()
+```
+
