@@ -168,7 +168,5 @@ x.text = "Hello"
 
 In this case we are saying that "number" and "name" are allowed nothing else. x.text would terminate the program with an error: "AttributeError:'Myclass' object has not attribute 'text'."
 
-http://tech.oyster.com/save-ram-with-python-slots/
-
-[http://tech.oyster.com/save-ram-with-python-slots/]: 	"Saving 9 GB of RAM with Python’s __slots__"
+[Saving 9 GB of RAM with Python’s __slots__](http://tech.oyster.com/save-ram-with-python-slots/)
 
