@@ -31,7 +31,7 @@ second = Employee("Steve", 4321).show()
 print("Number of employees", Employee.employee_count)
 ```
 
-
+------
 
 ### Getters, setters and logic
 
@@ -77,7 +77,7 @@ x.num = 9000
 print(x.num)
 ```
 
-
+------
 
 ### Inheritance
 
@@ -127,7 +127,7 @@ chopper = plane(10,20,30)
 chopper.update()
 ```
 
-
+------
 
 ### Slots
 
@@ -169,4 +169,6 @@ x.text = "Hello"
 In this case we are saying that "number" and "name" are allowed nothing else. x.text would terminate the program with an error: "AttributeError:'Myclass' object has not attribute 'text'."
 
 http://tech.oyster.com/save-ram-with-python-slots/
+
+[http://tech.oyster.com/save-ram-with-python-slots/]: 	"Saving 9 GB of RAM with Python’s __slots__"
 
