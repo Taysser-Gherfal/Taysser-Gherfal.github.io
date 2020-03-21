@@ -127,3 +127,46 @@ chopper = plane(10,20,30)
 chopper.update()
 ```
 
+
+
+### Slots
+
+In Python when you create objects, you can add extra attributes during the course of your program, even if they're not in the class definition.
+
+```python
+class Myclass:
+    def _init_(self,passed_number):
+        self.number = passed_number
+        
+x = Myclass(10)
+print(x.number)
+
+x.text = "Hello"
+print(x.text)
+
+print(x.__dict__)
+```
+
+In this case the attributes are stored in a dictionary which takes time to process and not efficient with RAM. This object-specific dictionary is called "--dict--" --> two underscores.
+
+To improve performance, you can tell Python not to use a dictionary in this case by using **slots**
+
+```python
+class Myclass(object):
+    __slots__ = ["number","name"]
+    def _init_(self,passed_number):
+        self.number = passed_number
+
+x = Myclass(10)
+print(x.number)
+
+x.name = "Bob"
+print(x.name)
+
+x.text = "Hello"
+```
+
+In this case we are saying that "number" and "name" are allowed nothing else. x.text would terminate the program with an error: "AttributeError:'Myclass' object has not attribute 'text'."
+
+http://tech.oyster.com/save-ram-with-python-slots/
+
