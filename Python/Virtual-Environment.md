@@ -28,3 +28,17 @@ Windows
 $ venv\Scripts\activate
 ```
 
+
+
+### Generating a requirements.txt file
+
+```bash
+$ pip freeze > requirements.txt
+```
+
+### Installing a requirements.txt file
+
+```bash
+$ pip install -r requirements.txt
+```
+
