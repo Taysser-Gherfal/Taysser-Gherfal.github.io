@@ -10,6 +10,7 @@
    - [Modules](Python/Modules.md)
    - [Built in Modules](Python/Built in Modules.md)
    - [Object-Oriented](Python/Object-Oriented.md)
-   - [GUI](Python/GUI/index.md)
    - [Virtual-Environment](Python/Virtual-Environment.md)
+   - [GUI](Python/GUI/index.md)
+   - [Flask](Python/Flask/index.md)
 
