@@ -202,3 +202,11 @@ if __name__ == '__main__':
     ```
 
     
+
+#### Container Widgets
+
+- **QTabWidget:** known as the notebook widget --> tabs
+  1. Create ATabWidget object
+  2. Build a UI page
+  3. Add the page to the tab using QTabWidget.addTab() method
+- **QGroupBox:** useful for grouping related input together
