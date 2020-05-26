@@ -206,7 +206,37 @@ if __name__ == '__main__':
 #### Container Widgets
 
 - **QTabWidget:** known as the notebook widget --> tabs
+
   1. Create ATabWidget object
+
   2. Build a UI page
+
   3. Add the page to the tab using QTabWidget.addTab() method
+
+     ```python
+     def __init__(self):
+             super().__init__()
+             # Main UI code goes here
+     
+             button1 = qtw.QPushButton("Push me", self, checkable=True, checked=True)
+             
+             layout = qtw.QGridLayout()
+             self.setLayout(layout)
+             
+             # Create ATabWidget object
+             tab_widget = qtw.QTabWidget()
+             layout.addWidget(tab_widget)
+     
+             container = qtw.QTabWidget(self)
+             grid_layout = qtw.QGridLayout()
+             container.setLayout(grid_layout)
+     
+             tab_widget.addTab(container, 'tab')
+     
+             grid_layout.addWidget(button1, 0, 0)
+     
+             # End main UI code
+             self.show()
+     ```
+
 - **QGroupBox:** useful for grouping related input together
