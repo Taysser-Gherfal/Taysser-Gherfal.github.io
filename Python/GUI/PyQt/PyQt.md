@@ -5,6 +5,7 @@
 **Example code:** https://github.com/packtPublishing/Mastering-GUI-Programming-with-Python/tree/master
 
 ```bash
+$ python3 -m pip install pyqt5==5.14
 $pip install --user PyQt5
 ```
 

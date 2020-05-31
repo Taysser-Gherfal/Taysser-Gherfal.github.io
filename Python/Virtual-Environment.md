@@ -42,3 +42,11 @@ $ pip freeze > requirements.txt
 $ pip install -r requirements.txt
 ```
 
+
+
+### Creating an executable 
+
+```bash
+pyinstaller --onefile -w <file.py>
+```
+
