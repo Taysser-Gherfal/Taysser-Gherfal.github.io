@@ -2,7 +2,17 @@
 
 ------
 
-### exec
+### list() & split()
+
+> - **list()** converts a string to a list by breaking it into individual letters 
+> - **split()** breaks a string into words
+> ```python 
+> s = 'a number of strings'
+> l = list(s)
+> w = split(s)
+>```
+
+### exec()
 
 > Runs a program within a program → runs the code as a part of the current program - if x is defined within the program, you can print it for example
 >
@@ -11,7 +21,7 @@
 > exec(code)
 > ```
 
-### chr
+### chr()
 
 > Display characters that are not on the keyboard using Unicode → On Windows you need to change the character set for this to work
 >
